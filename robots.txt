@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://beauty-care.pages.dev/sitemap.xml
