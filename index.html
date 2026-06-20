@@ -2,16 +2,16 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>💄 美妆护肤深度测评 | 思思好物</title>
+<title>✨ 美妆护肤深度测评 | 思思好物</title>
 <meta name="description" content="美妆护肤真实测评">
 <style>*{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter','Noto Sans SC','PingFang SC',sans-serif;background:#F8F9FC;color:#1F2937;line-height:1.8}
 :root{--p:#7C3AED}
 a{text-decoration:none}
-header{background:linear-gradient(135deg,#7C3AED,#5B21B6);color:#fff;padding:12px 0;position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(124,58,237,.3)}
+header{background:linear-gradient(135deg,#7C3AED,#5B21B6);color:#fff;padding:12px 0;position:sticky;top:0;z-index:100}
 header .nav{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;gap:5px;flex-wrap:wrap;align-items:center}
 header .nav .brand{font-weight:800;font-size:18px;margin-right:auto;color:#fff}
-header .nav .brand span{background:rgba(255,255,255,.2);font-size:11px;padding:2px 8px;border-radius:10px;color:rgba(255,255,255,.9)}
+header .nav .brand span{background:rgba(255,255,255,.2);font-size:11px;padding:2px 8px;border-radius:10px}
 header .nav a{color:rgba(255,255,255,.85);font-size:16px;padding:4px 8px;border-radius:8px}
 header .nav a:hover{background:rgba(255,255,255,.15);color:#fff}
 .container{max-width:1100px;margin:0 auto;padding:20px}
@@ -38,88 +38,128 @@ footer{text-align:center;padding:20px;color:#9CA3AF;font-size:.82em;border-top:1
 </head>
 <body>
 <header>
-  <div class="nav">
-    <a href="/" class="brand">✨ 思思好物 <span>评测</span></a>
-    <a href="https://wxy0000058.github.io/3c-digital/">💻 数码</a>
-    <a href="https://wxy0000058.github.io/home-life/">🛋️ 家居</a>
-    <a href="https://wxy0000058.github.io/beauty-care/">💄 美妆</a>
-    <a href="https://wxy0000058.github.io/sports-outdoor/">⚽ 运动</a>
-    <a href="https://wxy0000058.github.io/mom-baby/">👶 母婴</a>
+  <div class="nav" style="display:flex;align-items:center;gap:5px;flex-wrap:wrap;max-width:1100px;margin:0 auto;padding:0 16px">
+    <a href="/" class="brand" style="font-weight:800;font-size:17px;color:#fff;margin-right:6px;white-space:nowrap">✨ 思思好物</a>
+    <a href="https://wxy0000058.github.io/3c-digital/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">💻 数码</a>
+    <a href="https://wxy0000058.github.io/home-life/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">🛋️ 家居</a>
+    <a href="https://wxy0000058.github.io/beauty-care/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">💄 美妆</a>
+    <a href="https://wxy0000058.github.io/sports-outdoor/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">⚽ 运动</a>
+    <a href="https://wxy0000058.github.io/mom-baby/" style="color:rgba(255,255,255,.85);font-size:15px;padding:4px 7px;border-radius:6px;text-decoration:none">👶 母婴</a>
+    <div style="flex:1;min-width:60px;text-align:right">
+      <input id="sbox" type="text" placeholder="搜索文章..." style="max-width:180px;width:100%;padding:4px 10px;border-radius:6px;border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.12);color:#fff;font-size:12px;outline:none;font-family:inherit" oninput="searchFilter(this.value)">
+    </div>
+    <style>
+    #sbox::placeholder{color:rgba(255,255,255,.45)}
+    header a:hover{background:rgba(255,255,255,.15)!important}
+    @media(max-width:640px){
+      header .nav a{font-size:12px!important;padding:2px 4px!important}
+      .brand{font-size:14px!important}
+      #sbox{max-width:120px!important;font-size:11px!important}
+    }
+    </style>
   </div>
 </header>
+
+
+
 <div class="container">
   <div class="hero">
     <div class="review-badge">🛡️ 本评测基于真实购买体验</div>
-    <h1>💄 美妆护肤深度测评</h1>
-    <p>美妆护肤真实测评 · 共12篇</p>
+    <h1>✨ 美妆护肤深度测评</h1>
+    <p>美妆护肤真实测评 · 共14篇</p>
   </div>
   <div class="post-list"><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/01-2026年最值得买的精华液.html">2026年最值得买的精华液：从平价到贵妇全覆盖，雅诗兰黛/兰蔻/欧莱雅实测</a></h3>
     <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/02-美容仪到底有没有用-2026热门型号实测对比.html">美容仪到底有没有用？2026年热门型号实测对比：雅萌/宙斯/AMIRO</a></h3>
     <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1559599101-f09722fb4948?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/03-防晒霜怎么选-2026年十大热门防晒实测.html">防晒霜怎么选？2026年十大热门防晒实测：安热沙/理肤泉/薇诺娜/蜜丝婷</a></h3>
     <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/04-2026护肤步骤最全指南.html">2026护肤步骤最全指南：从入门到精通，早C晚A+精简护肤全攻略</a></h3>
     <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/05-面膜推荐2026.html">面膜推荐2026：补水/美白/修复/清洁全品类测评，敷尔佳/可复美/欧莱雅</a></h3>
     <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/ai-03-2026年秋冬面霜推荐.html">2026年秋冬面霜推荐：干皮油皮敏感肌全攻略 推荐</a></h3>
     <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
+</div>
+<div class="post-card">
   <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/ai-10-2026年敏感肌护肤全攻略-洁面-水-精华-面霜推.html">2026年敏感肌护肤全攻略：洁面/水/精华/面霜推荐</a></h3>
     <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">美妆护肤</span></div>
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/batch-07-2026年粉底液推荐-干皮-油皮-混油全.html">2026年粉底液推荐：干皮/油皮/混油全攻略</a></h3>
     <div class="card-meta"><span>热评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
-  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">美妆护肤</span></div>
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/batch-08-2026年护发精油推荐-修复干枯毛躁.html">2026年护发精油推荐：修复干枯毛躁</a></h3>
     <div class="card-meta"><span>热评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
+</div>
+<div class="post-card">
   <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">热评</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/batch-09-2026年卸妆产品推荐-卸妆油vs卸妆水.html">2026年卸妆产品推荐：卸妆油/卸妆水/卸妆膏怎么选？植村秀/芭比波朗/逐本/至本对比</a></h3>
     <div class="card-meta"><span>热评</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
+  <div class="card-body">
+    <h3><a href="posts/cron-0620-2026年唇部护理推荐-润唇膏-唇膜-唇部精华怎么选，凡士林-兰芝-依泉-马林狗子横评.html">2026年唇部护理推荐：润唇膏/唇膜/唇部精华怎么选，凡士林/兰芝/依泉/马林狗子横评</a></h3>
+    <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
+  </div>
+</div>
+<div class="post-card">
+  <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">测评</span><span class="cat-tag">美妆护肤</span></div>
+  <div class="card-body">
+    <h3><a href="posts/cron-0620-2026年爽肤水推荐-控油-补水-修护全价位横评，SK-II-雅诗兰黛-兰蔻-珂润对比.html">2026年爽肤水推荐：控油/补水/修护全价位横评，SK-II/雅诗兰黛/兰蔻/珂润对比</a></h3>
+    <div class="card-meta"><span>测评</span><span>·</span><span>美妆护肤</span></div>
+  </div>
+</div>
+<div class="post-card">
   <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">最新</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/daily-0619-2026年眼霜推荐-去黑眼圈抗皱保湿全价位横评.html">2026年眼霜推荐：去黑眼圈抗皱保湿全价位横评，雅诗兰黛/兰蔻/欧莱雅/珀莱雅实测</a></h3>
     <div class="card-meta"><span>最新</span><span>·</span><span>美妆护肤</span></div>
   </div>
-</div><div class="post-card">
+</div>
+<div class="post-card">
   <div class="card-img"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=300&h=150&fit=crop&q=80" alt="" loading="eager"><span class="img-tag">最新</span><span class="cat-tag">美妆护肤</span></div>
   <div class="card-body">
     <h3><a href="posts/daily-0619-2026年身体乳推荐-春季换季保湿美白怎么选.html">2026年身体乳推荐：春季换季保湿美白怎么选？CeraVe/凡士林/适乐肤/松山油脂横评</a></h3>
@@ -127,24 +167,29 @@ footer{text-align:center;padding:20px;color:#9CA3AF;font-size:.82em;border-top:1
   </div>
 </div></div>
 </div>
+<script>
+
+).textContent||'';c.style.display=(!q||t.toLowerCase().indexOf(q)>-1)?'':'none'});var v=document.querySelectorAll('.post-card:not([style*="display: none"])').length;if(!q)v=document.querySelectorAll('.post-card').length;var nr=document.getElementById('nores');if(!nr){nr=document.createElement('p');nr.id='nores';nr.style.cssText='text-align:center;color:#9CA3AF;padding:40px 0;font-size:.9em';document.querySelector('.post-list').after(nr)}nr.textContent='😅 没有找到「'+q+'」相关文章';nr.style.display=(v===0&&q)?'':'none'}
+</script>
+<script>
+).textContent||'';c.style.display=(!q||t.toLowerCase().indexOf(q)>-1)?'':'none'});var v=document.querySelectorAll('.post-card:not([style*="display: none"])').length;if(!q)v=document.querySelectorAll('.post-card').length;var nr=document.getElementById('nores');if(!nr){nr=document.createElement('p');nr.id='nores';nr.style.cssText='text-align:center;color:#9CA3AF;padding:40px 0;font-size:.9em';document.querySelector('.post-list').after(nr)}nr.textContent='😅 没有找到「'+q+'」相关文章';nr.style.display=(v===0&&q)?'':'none'}
+</script>
+<script>
+function searchFilter(q){q=q.toLowerCase().trim();document.querySelectorAll('.post-card').forEach(function(c){var t=(c.querySelector('h3')||{}).textContent||'';c.style.display=(!q||t.toLowerCase().indexOf(q)>-1)?'':'none'});var v=document.querySelectorAll('.post-card:not([style*="display: none"])').length;if(!q)v=document.querySelectorAll('.post-card').length;var nr=document.getElementById('nores');if(!nr){nr=document.createElement('p');nr.id='nores';nr.style.cssText='text-align:center;color:#9CA3AF;padding:40px 0;font-size:.9em';document.querySelector('.post-list').after(nr)}nr.textContent='😅 没有找到「'+q+'」相关文章';nr.style.display=(v===0&&q)?'':'none';}
+</script>
 <footer>© 2026 思思好物 — 好物不迷路，思思来指路 ✨</footer>
 <script>
-(function(){
-  var n=8,c=document.querySelectorAll('.post-card'),t=Math.ceil(c.length/n);
-  if(t<=1)return;
-  function p(i){var s=(i-1)*n,e=s+n;c.forEach(function(x,j){x.style.display=(j>=s&&j<e)?'':'none'});document.querySelectorAll('.page-btn').forEach(function(b){b.classList.toggle('active',parseInt(b.dataset.page)===i)});document.getElementById('pi').textContent=i+'/'+t+'页'}
-  var nav=document.createElement('div');nav.style.cssText='display:flex;align-items:center;justify-content:center;gap:8px;margin:24px 0;flex-wrap:wrap';
-  var prv=document.createElement('a');prv.href='javascript:;';prv.textContent='‹ 上一页';prv.style.cssText='padding:6px 14px;border-radius:8px;font-size:.88em;color:#7C3AED;background:#EDE9FE;text-decoration:none';
-  prv.onclick=function(){var cur=parseInt(document.querySelector('.page-btn.active').dataset.page);if(cur>1)p(cur-1)};
-  nav.appendChild(prv);
-  for(var i=1;i<=t;i++){var b=document.createElement('a');b.href='javascript:;';b.textContent=i;b.className='page-btn';b.dataset.page=i;b.style.cssText='padding:6px 12px;border-radius:8px;font-size:.88em;color:#4B5563;background:#FFF;border:1px solid #E5E7EB;text-decoration:none';b.onclick=function(){p(parseInt(this.dataset.page))};nav.appendChild(b)}
-  var nxt=document.createElement('a');nxt.href='javascript:;';nxt.textContent='下一页 ›';nxt.style.cssText='padding:6px 14px;border-radius:8px;font-size:.88em;color:#7C3AED;background:#EDE9FE;text-decoration:none';
-  nxt.onclick=function(){var cur=parseInt(document.querySelector('.page-btn.active').dataset.page);if(cur<t)p(cur+1)};
-  nav.appendChild(nxt);
-  var inf=document.createElement('span');inf.id='pi';inf.style.cssText='font-size:.82em;color:#9CA3AF;margin-left:8px';
-  nav.appendChild(inf);
-  document.querySelector('.post-list').after(nav);p(1);
-})();
+(function(){var n=8,c=document.querySelectorAll('.post-card'),t=Math.ceil(c.length/n);
+if(t<=1)return;
+function p(i){var s=(i-1)*n,e=s+n;c.forEach(function(x,j){x.style.display=(j>=s&&j<e)?'':'none'});document.querySelectorAll('.page-btn').forEach(function(b){b.classList.toggle('active',parseInt(b.dataset.page)===i)});document.getElementById('pi').textContent=i+'/'+t+'页'}
+var nav=document.createElement('div');nav.style.cssText='display:flex;align-items:center;justify-content:center;gap:8px;margin:24px 0;flex-wrap:wrap';
+var prv=document.createElement('a');prv.href='javascript:;';prv.textContent='‹ 上一页';prv.style.cssText='padding:6px 14px;border-radius:8px;font-size:.88em;color:#7C3AED;background:#EDE9FE;text-decoration:none';
+prv.onclick=function(){var cur=parseInt(document.querySelector('.page-btn.active').dataset.page);if(cur>1)p(cur-1)};nav.appendChild(prv);
+for(var i=1;i<=t;i++){var b=document.createElement('a');b.href='javascript:;';b.textContent=i;b.className='page-btn';b.dataset.page=i;b.style.cssText='padding:6px 12px;border-radius:8px;font-size:.88em;color:#4B5563;background:#FFF;border:1px solid #E5E7EB;text-decoration:none';b.onclick=function(){p(parseInt(this.dataset.page))};nav.appendChild(b)}
+var nxt=document.createElement('a');nxt.href='javascript:;';nxt.textContent='下一页 ›';nxt.style.cssText='padding:6px 14px;border-radius:8px;font-size:.88em;color:#7C3AED;background:#EDE9FE;text-decoration:none';
+nxt.onclick=function(){var cur=parseInt(document.querySelector('.page-btn.active').dataset.page);if(cur<t)p(cur+1)};nav.appendChild(nxt);
+var inf=document.createElement('span');inf.id='pi';inf.style.cssText='font-size:.82em;color:#9CA3AF;margin-left:8px';nav.appendChild(inf);
+document.querySelector('.post-list').after(nav);p(1);})();
 </script>
 </body>
 </html>
